@@ -61,4 +61,3 @@ The integration test starts its own tmux socket and temporary HOME, launches rea
 Pi and nvim processes, kills only that isolated server, and checks exact-session
 restoration, profile preservation, numeric/group filtering, status-off saving,
 stale-process rejection, and config reload safety. Test artifacts remain in `/tmp`.
-

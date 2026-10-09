@@ -1,0 +1,24 @@
+{
+  "name": "pi-tmux-resurrect",
+  "version": "1.0.0",
+  "description": "Publish the exact interactive Pi session and profile for tmux-resurrect",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "tmux",
+    "tmux-resurrect"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://git.quinntyx.dev/quinntyx/pi-tmux-resurrect.git"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
